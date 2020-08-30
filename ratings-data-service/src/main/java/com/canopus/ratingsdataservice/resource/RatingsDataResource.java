@@ -22,8 +22,8 @@ public class RatingsDataResource {
     @GetMapping("/users/{userId}")
     public UserRating getRatings(@PathVariable String userId) {
         return new UserRating(Arrays.asList(
-                new Rating("1234", 4),
-                new Rating("5678", 4)
+                new Rating("tt1825683", 4),
+                new Rating("tt4154796", 4)
         ));
     }
 }
